@@ -11,8 +11,6 @@ class MyIcons{
   // 微信图标
   static const IconData fork = const IconData(
       0xec7d,
-      fontFamily: 'myIcon',
-      matchTextDirection: true
   );
 
 
