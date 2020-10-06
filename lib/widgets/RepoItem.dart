@@ -1,4 +1,7 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:github_client_app/common/MyIcons.dart';
+import 'package:github_client_app/l10n/localization_intl.dart';
 import 'package:github_client_app/models/index.dart';
 
 class RepoItem extends StatefulWidget {

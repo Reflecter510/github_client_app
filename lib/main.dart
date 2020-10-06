@@ -1,16 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:github_client_app/routes/language_route.dart';
+import 'package:github_client_app/routes/login_route.dart';
+import 'package:github_client_app/routes/theme_change_route.dart';
+import 'package:provider/provider.dart';
+import 'package:provider/single_child_widget.dart';
 
 import 'common/Global.dart';
-import 'common/ThemeModel.dart';
+import 'common/ProfileChangeNotifier.dart';
+import 'l10n/localization_intl.dart';
+import 'routes/home_page.dart';
 
-void main() => Global.init().then((e) => runApp(MyApp()));
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Global.init();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
-      providers: <SingleChildCloneableWidget>[
+      providers: <SingleChildWidget>[
         ChangeNotifierProvider.value(value: ThemeModel()),
         ChangeNotifierProvider.value(value: UserModel()),
         ChangeNotifierProvider.value(value: LocaleModel()),
@@ -44,7 +57,6 @@ class MyApp extends StatelessWidget {
                 //如果已经选定语言，则不跟随系统
                 return localeModel.getLocale();
               } else {
-
                 Locale locale;
                 //APP语言跟随系统语言，如果系统语言不是中文简体或美国英语，
                 //则默认使用美国英语

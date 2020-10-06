@@ -1,0 +1,89 @@
+{
+  "@@last_modified": "2020-10-06T20:25:30.266161",
+  "Login": "Login",
+  "@Login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "language": "language",
+  "@language": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "home",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "auto": "auto",
+  "@auto": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "theme": "theme",
+  "@theme": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "UserName Or Password Wrong": "UserName Or Password Wrong",
+  "@UserName Or Password Wrong": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "No Description": "No Description",
+  "@No Description": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "logout",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout Tip": "logout Tip",
+  "@logout Tip": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "cancel",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "yes",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName": "userName",
+  "@userName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName Or Email": "userName Or Email",
+  "@userName Or Email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userName Required": "userName Required",
+  "@userName Required": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password Required": "password Required",
+  "@password Required": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "title": "Github Client",
+  "@title": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  }
+}
